@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/base.css">
     <link rel="stylesheet" href="/styles/modules.css">
     <link rel="stylesheet" href="/styles/layout.css">
     <title>Document</title>
@@ -14,11 +14,11 @@
     <header><h1>Search Results</h1></header>
    <main>
       <% search.forEach(result => { %>
-        <div>
+        <div id="resultdiv">
            <img src=<%= result.imgurl %>>
-            <h2><%= result.title %></h2>
-            <h3><%= result.dietLabels %></h3>
+            <h2>Title:<%= result.title %></h2>
            
+            <button id="submitButton" type="submit">View details</button>
         </div>
     <%  }); %>
 

@@ -1,0 +1,10 @@
+@media(min-width : 746px){
+
+    body{
+        width: auto;
+       
+        background-color: lawngreen;
+        height: 600px;
+    
+    
+    }
