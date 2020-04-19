@@ -3,24 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/base.css">
-    <link rel="stylesheet" href="/styles/modules.css">
-    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/public/styles/reset.css">
+    <link rel="stylesheet" href="/base.css">
+    <!-- <link rel="stylesheet" href="/abdullah.css"> -->
+    <!-- <link rel="stylesheet" href="/modules.css">
+    <link rel="stylesheet" href="/layout.css"> -->
     <title>Document</title>
 </head>
 <body>
      <header>
-         <h1>Search page</h1>
+         <!-- <h1>Search page</h1> -->
+         
      </header>
  <main> 
+   <h1><div id="headerdiv"></div> 
+        <div class="text">
+           <span>S</span>
+           <span>E</span>
+           <span>A</span>
+           <span>R</span>
+           <span>C</span>
+           <span>H</span>
+           <span></span>
+           <span>P</span>
+           <span>A</span>
+           <span>G</span>
+           <span>E</span>
+         </div>
+       </div>
+    </h1>
      <form action="\search" method="POST" >
          <label >
-             <span>Enter the recipe by keyword</span> 
-             <input id='searchForRecpie' type="text" name="SearchFor"> 
+             <span id="keyword">Enter the recipe by keyword</span> 
+             <input id='searchForRecpie' type="search" name="SearchFor" placeholder="The name of dish "> 
        
     
-    <input type="submit" value="Search from the recipes Api">
+    <input class="button" type="submit" value="SEARCH">
     </form>
  </main>
 <footer></footer>
