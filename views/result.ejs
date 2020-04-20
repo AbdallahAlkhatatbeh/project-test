@@ -3,26 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/reset.css">
-    <link rel="stylesheet" href="/base.css">
-    <link rel="stylesheet" href="/styles/modules.css">
-    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/base.css">
+    <!-- <link rel="stylesheet" href="/styles/modules.css">
+    <link rel="stylesheet" href="/styles/layout.css"> -->
     <title>Document</title>
 
 </head>
 <body>
-    <header><h1>Search Results</h1></header>
+    
    <main>
+       <div class="header">
+    <h1>Search Results</h1>
+</div>
+    <!-- $('searchForRecpie').val -->
       <% search.forEach(result => { %>
-        <div id="resultdiv">
-           <img src=<%= result.imgurl %>>
+        <div id="resultdiv"  data-aos="fade-right"  >
+
+           <div class="resultimg"><img src=<%= result.imgurl %>></div>
+           <div class="h2button">
             <h2>Title:<%= result.title %></h2>
            
-            <button id="submitButton" type="submit">View details</button>
+            <button id="submitButton" type="submit">Add to my list</button>
+        </div>
         </div>
     <%  }); %>
 
 </main> 
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
 </body>
 
 </html>

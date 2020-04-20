@@ -1,10 +1,230 @@
-@media(min-width : 746px){
+body{
+    width: auto;
+   
+    /* background-image: url("recipe\ background.jpg"); */
+    /* background: no-repeat; */
+    height: 600px;
+    
+
+}
+#headerdiv{
+    text-align: center;
+
+}
+form{
+    text-align: center;
+    /* display:inline-block; */
+    margin-top: 120px;
+}
+#keyword{
+    text-align: center;
+    margin: 15px;
+    
+}
+#searchForRecpie{
+    margin: 15px;
+}
+.header{
+    overflow: hidden;
+    background: url(abdullah.jpg);
+    height: 260px;
+margin-bottom: 5%;
+background-size: cover;
+}
+.header h1 {
+    position: absolute;
+    left: 35%;
+    top: 14%;
+color: white;
+font-weight: bolder;
+font-size: 38px;
+background-color: gray;
+border-radius: 20px;
+width: 277px;
+text-align: center;
+}
+#resultdiv h2{
+    padding: 10px;
+color: #fff;
+text-align: center;
+font-size: 17px;
+border-radius: 20px;
+background: none;
+
+width: 120px;
+float: right;
+margin-bottom: 25px;
+margin-right: 56px;
+margin-top: 5px;
+}
+.resultimg img{
+    width: 120px;
+margin: 10px;
+border-radius: 20px;
+/* margin: 10px 5px; */
+padding: 10px;
+
+}
+.resultimg{
+    float: left;
+    width: 50%;
+}
+#resultdiv{
+background-color: black;
+margin: 15px;
+height: 183px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.9);
+/* padding: 80px 40px; */
+/* margin-top: 20%; */
+background: linear-gradient(top, #3c3c3c 0% #222222 100%);
+background: -webkit-linear-gradient(top, #3c3c3c 0% #222222 100%);
+/* margin-bottom: 20%; */
+opacity: .8;
+background-color: gray;
+width: 466px;
+    margin:15px auto ;
+} 
+button {
+height: 45px;
+color: #ff9800;
+background-color: #fff;
+border-radius: 20px;
+cursor: pointer;
+width: 62%;
+font-size: 18px;
+border: 2px #fff solid;
+margin-left: 10px
+}
+
+button:hover{
+color: #fff;
+background-color: #dea846;
+box-shadow: 0 0 10px #dea846, 0 0 40px #dea846, 0 0 80px #dea846;
+}
+.h2button{
+padding: 10px;
+text-align: center;
+display: grid;
+grid-column: 2 fr;
+justify-content: center
+}
+
+
+
+
+
+
+
+
+@media(max-width : 746px){
 
     body{
         width: auto;
        
-        background-color: lawngreen;
+        /* background-image: url("recipe\ background.jpg"); */
+        /* background: no-repeat; */
         height: 600px;
     
     
     }
+    #headerdiv{
+        text-align: center;
+
+    }
+    form{
+        text-align: center;
+        /* display:inline-block; */
+        margin-top: 120px;
+    }
+    #keyword{
+        text-align: center;
+        margin: 15px;
+        
+    }
+    #searchForRecpie{
+        margin: 15px;
+    }
+    .header{
+        overflow: hidden;
+        background: url(abdullah.jpg);
+        height: 260px;
+    margin-bottom: 10%;
+    }
+    .header h1 {
+        position: absolute;
+    left: 18%;
+    top: 18%;
+    color: white;
+    font-weight: bolder;
+    font-size: 38px;
+    background-color: gray;
+    border-radius: 20px;
+    width: 277px;
+    text-align: center;
+    }
+    #resultdiv h2{
+        padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+    background: none;
+    
+    width: 120px;
+    float: right;
+    margin-bottom: 25px;
+    margin-right: 56px;
+    margin-top: 5px;
+    }
+    .resultimg img{
+        width: 120px;
+    margin: 10px;
+    border-radius: 20px;
+    /* margin: 10px 5px; */
+    padding: 10px;
+
+    }
+    .resultimg{
+        float: left;
+        width: 50%;
+    }
+#resultdiv{
+    background-color: black;
+    margin: 15px;
+    height: 183px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.9);
+    /* padding: 80px 40px; */
+    /* margin-top: 20%; */
+    background: linear-gradient(top, #3c3c3c 0% #222222 100%);
+    background: -webkit-linear-gradient(top, #3c3c3c 0% #222222 100%);
+    /* margin-bottom: 20%; */
+    opacity: .8;
+    background-color: gray;
+}
+button {
+    height: 45px;
+    color: #ff9800;
+    background-color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 62%;
+    font-size: 18px;
+    border: 2px #fff solid;
+    margin-left: 10px
+}
+
+button:hover{
+    color: #fff;
+    background-color: #dea846;
+    box-shadow: 0 0 10px #dea846, 0 0 40px #dea846, 0 0 80px #dea846;
+}
+.h2button{
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-column: 2 fr;
+    justify-content: center
+}
+
+
+}
